@@ -3,16 +3,28 @@
 <head>
     <title>Gallery</title>
     <link rel="stylesheet" href="gallery_styles.css">
+    <script src="gallery_script.js"></script>
 </head>
 <body>
     <header>
-        <h1>EMOBILE</h1>
-        <a href="registration.html" id="RegButton">Register</a>
-        <a href="index.html" id="HomeButton">Home</a>
+        <div class="heading">
+            <h1>EMOBILE</h1>
+        </div>
     </header>
 
+    <div>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a>Products</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <h2>Categories</h2>
             <h4>All</h4>
             <h4>Mobile</h4>
@@ -21,37 +33,49 @@
             <h4>Samsung</h4>
         </div>
 
+        <button id="show-button">show sidebar</button>
+        
         <div class="content">
             <div class="gallery">
                 <div class="gallery-item">
-                    <img src="Mobile1.jfif">
+                    <img src="Mobile1.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Mobile2.jfif">
+                    <img src="Mobile2.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Mobile3.jfif">
+                    <img src="Mobile3.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Watch1.jfif">
+                    <img src="Watch1.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Watch2.jfif">
+                    <img src="Watch2.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Watch3.jfif">
+                    <img src="Watch3.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="Watch4.jfif">
+                    <img src="Watch4.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="EarBuds1.jfif">
+                    <img src="EarBuds1.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="EarBuds2.jfif">
+                    <img src="EarBuds2.png">
+                    <p>Rs.50000/=</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="EarBuds3.jfif">
+                    <img src="EarBuds3.png">
+                    <p>Rs.50000/=</p>
                 </div>
             </div>
         </div>
